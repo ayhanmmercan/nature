@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>natureproject</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body{
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .main-content{
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+        <div class="container-fluid bg-dark p-2">
+          <a class="navbar-brand" href="/"><h2>Doğa</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sign.html">Giriş yap</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Arama yapınız" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--Ana içerik-->
+
+      <div class="container d-flex justify-content-center align-item-center border main-content">
+        <form class="border shadow rounded p-4" action="">
+            <div class="mb-3">
+                <label class="form-label" for="">Email adresiniz: </label>
+            <input class="form-control" type="text">
+            </div>
+            <div class="form-text mb-3">
+                Bilgilerinizi kimseyle paylaşmayınız...
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="">Şifreniz:        </label>
+            <input class="form-control" type="text">
+            </div>
+            <div>
+                <input type="checkbox">
+                <label class="form-label" for="">Beni hatırla</label>
+            </div>
+            <button class="btn btn-primary">Gönder</button>
+        </form>
+        
+      </div>
+      <!--footer-->
+      <div class="container">
+        <footer class="d-flex justify-content-between border-top my-5 pt-3 border-dark">
+            <p>&copy; 2023 Bütün hakları saklıdır.</p>
+            <div class="d-flex gap-3">
+                <a class="nav-link" href="/">Anasayfa</a>
+                <a class="nav-link" href="/blog.html">Blog</a>
+                <a class="nav-link" href="/sign.html">Giriş yap</a>
+            </div>
+        </footer>
+      </div>
+
+    <!--bs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
